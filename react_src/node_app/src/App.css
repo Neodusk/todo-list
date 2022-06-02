@@ -1,0 +1,115 @@
+.mainHeader {
+  text-align: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.itemList {
+  color: #00b388;
+  list-style-type: decimal;
+}
+
+textarea {
+  resize: none;
+}
+
+.formList {
+  color: #00b388;
+  list-style-type: decimal;
+  width:100%;
+  text-shadow: 1px 1px 1px black;
+  background-color: #597387;
+  padding:3px;
+  border:none;
+}
+
+.striked {
+  text-decoration: line-through;
+  color: #b30000;
+  list-style-type: decimal;
+  width:100%;
+  text-shadow: 1px 1px 1px black;
+  background-color: #597387;
+  padding:3px;
+  border:none;
+}
+
+.formList:hover {
+  font-weight:bolder;
+  color: white;
+}
+
+.flex-container {
+  margin:auto;
+  margin-top:15px;
+  display:flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  width: 80%;
+  background-color: #597387;
+  border-radius: 5px;
+  padding:3px;
+  box-shadow: 3px 3px 3px black;
+}
+
+.expandList {
+  flex-grow: 30;
+  text-shadow: 1px 1px 1px black;
+}
+
+button:hover {
+  box-shadow: 3px 3px 3px black;
+}
+
+.expandList:hover {
+  font-weight: bolder;
+  border-style: dotted;
+  border-color:black;
+  color: white;
+}
+
+.deleteButton, .reAddButton {
+  cursor: pointer;
+  background-color: #b30000;
+  flex-grow: 1;
+  border-width:  10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-style: italic;
+  margin-right: 5px;
+  margin-left: 5px;
+  border-top-color: #999999;
+  color: #ffc2c2;
+}
+
+.reAddButton {
+  background-color:#00aab3;
+  color: white;
+}
+.editButton {
+  cursor: pointer;
+  background-color:#00b388;
+  color:white;
+  flex-grow: 2;
+  border-width: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-style: italic;
+  border-top-color: #999999;
+}
+
+.addButton {
+  cursor: pointer;
+  background-color:black;
+  color:white;
+  margin-left: 5px;
+  border-width: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-style: italic;
+  flex-grow:.5;
+  border-top-color: #999999;
+}
